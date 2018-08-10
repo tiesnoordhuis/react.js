@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './ties.css';
+import ChatInput from "./ChatInput.js"
+import ChatDisplay from "./ChatDisplay.js"
 
 class ChatWindow extends Component {
   constructor(props) {
@@ -12,6 +14,8 @@ class ChatWindow extends Component {
   render() {
     return (
       <div className="ChatWindow">
+        <ChatDisplay />
+        <ChatInput />
         <p>
         hier komt de Chat
         </p>
