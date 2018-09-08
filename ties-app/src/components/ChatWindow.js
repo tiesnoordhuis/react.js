@@ -16,9 +16,6 @@ class ChatWindow extends Component {
       <div className="ChatWindow">
         <ChatDisplay />
         <ChatInput />
-        <p>
-        hier komt de Chat
-        </p>
       </div>
     );
   }
